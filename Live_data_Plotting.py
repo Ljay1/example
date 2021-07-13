@@ -24,5 +24,3 @@ def animate(i):
 
 ani = FuncAnimation(plt.gcf(), animate, interval = 1000)
 plt.show()
-
-# Git 저장상태 확인해보기 

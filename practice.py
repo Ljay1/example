@@ -35,7 +35,10 @@ print(find_index)
 
 # print(df[list_of_channels])
 
+
+#df["columns"] 는 serial 형식 (Class 형태)
 list_of_channels = df.columns[find_index]
+
 df1= df[list_of_channels]
 df2=df1.drop(0)
 
@@ -64,3 +67,5 @@ plt.yticks(rotation=30)
 plt.title('P-T Diagram', fontsize=20)
 
 plt.show()
+
+#git 수정 내용 Push 하기
